@@ -17,12 +17,12 @@ project8.cpp \
 
 // Project 7
 
- /usr/bin/clang++ -std=c++11 -fcolor-diagnostics -fansi-escape-codes -g \
+/usr/bin/clang++ -std=c++11 -fcolor-diagnostics -fansi-escape-codes -g \
 -I/opt/homebrew/Cellar/opencv/4.9.0_8/include/opencv4 \
 -L/opt/homebrew/Cellar/opencv/4.9.0_8/lib \
 -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_videoio \
-project7.cpp \
--o project7
+project7.cpp -o project7
+
 
 ./project7
 
